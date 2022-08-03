@@ -12,11 +12,11 @@ public class StatsService {
     }
 
     public long averageSales(long[] sales) {
-        long sum = 0;
+        long sum = summaSales(sales);
 
-        for (int i = 0; i < sales.length; i++) {
-            sum += sales[i];
-        }
+       // for (int i = 0; i < sales.length; i++) {
+           // sum += sales[i];
+       // }
         return sum / 12;
 
     }
